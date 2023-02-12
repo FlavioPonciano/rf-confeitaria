@@ -26,8 +26,9 @@
     font-size: 1em;
 }
 
-body {
-    background: var(--cor04);
+html, body {
+    background: var(--cor02);
+    min-height: 100vh;
 }
 
 header {
@@ -78,26 +79,23 @@ nav a:hover {
 }
 
 #base-foto-topo {
-    height: 80vh;
+    height: 50vh;
     position: relative;
-    padding: 10px;
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center center;
-    background-image: url('../imagens/barquete.jpg');
-}
 
-#foto-topo {
-    height: 60vh;
-    max-width: 368px;
-    border: 6px solid white;
-    border-bottom: 60px solid white;
-    position: relative;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    left: 35%;
-    background-image: url('../imagens/salgados-topo.jpg');
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
-    border-radius: 2px;
+    background-image: url('../imagens/barquete.jpg');
+    background-attachment: fixed;
+}
+
+
+.texto  {
+  display: inline-block;
+  min-width: 20%;
+  max-width: 50%;
+  min-height: 200px;
+  background-color: lightblue;
+  margin: 10px;
+  text-align: center;
 }
