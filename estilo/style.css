@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Beyond Wonderland', serif;
+    src: url(../fonts/Beyond\ Wonderland.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+:root {
+    --cor01: #D9C896;
+    --cor02: #D9CEAD;
+    --cor03: #8C673A;
+    --cor04: #401D16;
+    --cor05: #CFBC8F;
+
+    --font-logo: 'Beyond Wonderland', serif;
+    --font-padrao: 'Times New Roman', Times, serif;
+    --font-menu: 'Yeseva One', cursive;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body {
+    background: var(--cor04);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor01), var(--cor05));
+    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
+}
+
+header h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 6em;
+    font-family: var(--font-logo);
+    font-weight: lighter;
+    color: var(--cor04);
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
+}
+
+header p {
+    padding-bottom: 30px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 1.5em;
+    font-family: var(--font-padrao);
+    color: var(--cor04);
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
+}
+
+nav {
+    margin: 0px 0px 0px 15px;
+}
+
+nav a {
+    font-family: var(--font-padrao);
+    text-decoration: none;
+    color: #401D16;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 5px 5px 0px 5px;
+    transition: 0.5s;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
+}
+
+nav a:hover {
+    background-color: var(--cor04);
+    color: var(--cor02);
+}
+
+#base-foto-topo {
+    height: 80vh;
+    position: relative;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    background-image: url('../imagens/barquete.jpg');
+}
+
+#foto-topo {
+    height: 60vh;
+    max-width: 368px;
+    border: 6px solid white;
+    border-bottom: 60px solid white;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 35%;
+    background-image: url('../imagens/salgados-topo.jpg');
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
+    border-radius: 2px;
+}
