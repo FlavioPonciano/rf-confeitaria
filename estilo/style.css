@@ -95,7 +95,7 @@ nav a:hover {
   min-width: 20%;
   max-width: 50%;
   min-height: 200px;
-  background-color: lightblue;
+  background-color: var(--cor03);
   margin: 10px;
   text-align: center;
 }
