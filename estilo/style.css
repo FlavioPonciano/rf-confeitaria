@@ -64,7 +64,7 @@ nav a {
     font-family: var(--font-padrao);
     text-decoration: none;
     color: #401D16;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 1.5em;
     padding: 5px 5px 0px 5px;
     transition: 0.5s;
@@ -98,15 +98,16 @@ nav a:hover {
 
 #salgados  {
     padding: 10px;
-    min-width: 20%;
     max-width: 50%;
     min-height: 200px;
-    background-color: var(--cor01);
+    min-width: 80vw;
     text-align: justify;
+
+    
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185);
+    background-color: var(--cor01);
     
-    min-width: 80vw;
     }
 
     #salgados ul {
