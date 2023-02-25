@@ -110,12 +110,15 @@ main {
 }
 
 #mapa {
-   padding-top: 50px;
+    padding-top: 2px;
     margin: auto;
     max-width: 90%;
+    border: 2px solid var(--cor01);
+    text-align: center;
 }
 
 #mapa > iframe {
     max-width: 100%;
+    border: 2px solid black;
 }
 
