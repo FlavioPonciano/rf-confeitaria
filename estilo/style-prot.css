@@ -63,6 +63,8 @@ menu{
     text-align: center;
     background-color: var(--cor03);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+
+    min-width: 200px;
 }
 
 menu > a {
