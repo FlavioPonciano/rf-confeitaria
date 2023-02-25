@@ -61,11 +61,14 @@ menu{
     padding: 8px;
     margin-top: 10px;
     text-align: center;
+    background-color: var(--cor03);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
 }
 
 menu > a {
     margin-left: 10px;
     padding: 8px;
+
 
     text-decoration: none;
     color: var(--corbranco);
@@ -77,14 +80,8 @@ menu > a {
     cursor: pointer;
 }
 
-menu > a:hover {
-    background-color: var(--cor03);
-    color: var(--corbranco);
-    border-radius: 8px 8px 0px 0px;
-}
-
 menu:hover > :not(:hover) {
-    opacity: .5;
+    opacity: .2;
     transform: scale(0.9);
 }
 
@@ -93,6 +90,7 @@ main {
     margin: auto;
     background-color: var(--corbranco);
     border-radius: 0px 0px 8px 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
 }
 
 #quem-somos {
