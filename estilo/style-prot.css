@@ -87,7 +87,7 @@ menu:hover > :not(:hover) {
 }
 
 main {
-    max-width: 70vw;
+    max-width: 70%;
     margin: auto;
     background-color: var(--corbranco);
     border-radius: 0px 0px 8px 8px;
@@ -107,5 +107,15 @@ main {
     text-align: justify;
 
     padding: 2px 20px;
+}
+
+#mapa {
+   padding-top: 50px;
+    margin: auto;
+    max-width: 90%;
+}
+
+#mapa > iframe {
+    max-width: 100%;
 }
 
