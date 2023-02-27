@@ -37,6 +37,10 @@ header {
     box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
 }
 
+#topo-cabecalho {
+    padding-bottom: 30px;
+}
+
 #social {
     position: absolute;
     top: 5%;
@@ -59,13 +63,16 @@ header h1 {
 }
 
 header p {
-    padding-bottom: 30px;
     text-align: center;
     font-variant: small-caps;
     font-size: 1.5em;
     font-family: var(--font-padrao);
     color: var(--cor04);
     text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
+}
+
+#desde-2010 {
+    font-size: 1em;
 }
 
 menu{
