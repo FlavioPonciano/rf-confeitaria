@@ -37,6 +37,17 @@ header {
     box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
 }
 
+#social {
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+.link-social{
+    margin-right: 10px;
+}
+
+
 header h1 {
     padding-top: 20px;
     text-align: center;
@@ -82,7 +93,7 @@ menu > a {
     cursor: pointer;
 }
 
-menu:hover > :not(:hover) {
+menu:hover > :not(:hover), #social:hover > :not(:hover) {
     opacity: .2;
     transform: scale(0.9);
 }
@@ -93,8 +104,8 @@ menu:hover > :not(:hover) {
 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-image: url('../imagens/salgados-topo.jpg');
+    background-position: top center;
+    background-image: url('../imagens/bolo-home.jpg');
     background-attachment: fixed;
     box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
 }
