@@ -29,6 +29,7 @@
 html, body {
     background: var(--cor02);
     min-height: 100vh;
+    box-sizing: border-box;
 }
 
 header {
@@ -56,26 +57,34 @@ header p {
     text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
 }
 
-nav {
-    margin: 0px 0px 0px 15px;
+menu{
+    padding: 8px;
+    margin-top: 10px;
+    text-align: center;
+    background: var(--cor04);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+
+    min-width: 200px;
 }
 
-nav a {
-    font-family: var(--font-padrao);
+menu > a {
+    padding: 8px;
+
+
     text-decoration: none;
-    color: #401D16;
-    font-weight: bold;
-    font-size: 1.5em;
-    padding: 5px 5px 0px 5px;
-    transition: 0.5s;
-    border-top-right-radius: 2px;
-    border-top-left-radius: 2px;
-    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
+    color: var(--cor02);
+    font-family: var(--font-padrao);
+    font-variant: small-caps;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
+
+    transition: .35s;
+    cursor: pointer;
 }
 
-nav a:hover {
-    background-color: var(--cor04);
-    color: var(--cor02);
+menu:hover > :not(:hover) {
+    opacity: .2;
+    transform: scale(0.9);
 }
 
 #base-foto-topo {
