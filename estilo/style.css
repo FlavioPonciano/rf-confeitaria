@@ -155,8 +155,7 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
     align-items: center;
     text-align: center;
     margin: auto;
-    min-width: 75vw;  
-    max-width: 75vw;
+    max-width: 80vw;
     
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
     
@@ -165,12 +164,7 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
     .fotos-produtos {
         flex: 1;
         overflow: hidden;
-
         margin: 10px;
-        /*
-        background-color: var(--cor01);
-        
-        */
     }
 
     .fotos-produtos > h2 {
