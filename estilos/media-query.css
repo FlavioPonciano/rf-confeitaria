@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media (max-width: 767px) {
+    /* Dispositivos com tela menor que 767px */
+    #produtos {
+      flex-direction: column; /* Altera a direção de flexbox para vertical */
+      align-items: center; /* Centraliza os elementos verticalmente */
+    }
+  
+    .fotos-produtos {
+      margin-left: 0; /* Remove a margem esquerda para centralizar as divs filhas */
+      margin-bottom: 20px; /* Adiciona uma margem inferior para separar as divs filhas */
+    }
+  }
