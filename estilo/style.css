@@ -119,12 +119,12 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
 
 .frase-inicio {
     position: absolute;
-    top: 65%;
-    left: 50%;
+    top: 40%;
+    left: 60%;
     padding: 4px;
 
     color: var(--cor02);
-    background-color: #401d16d7;
+    background-color: #401d16d0;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
 }
 
