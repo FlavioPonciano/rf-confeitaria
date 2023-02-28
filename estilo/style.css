@@ -129,11 +129,11 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
 }
 
-.entre-box {
+.historia {
     margin-bottom: 20px;
 }
 
-.entre-box > p {
+.historia > p {
     display: block;
     text-align: center;
     margin: 4px 20%;
@@ -147,11 +147,6 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
 }
 
-.entre-box > p > span {
-    font-weight: bold;
-    font-style: italic;
-    font-variant: small-caps;
-}
 
 
 #produtos  {
@@ -197,30 +192,4 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
         background-image: url('../imagens/brigadeiro.jpg');
         background-attachment: fixed;
         box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
-    }
-
-    #doces {
-        padding: 10px;
-        min-width: 20%;
-        max-width: 50%;
-        min-height: 100px;
-        background-color: var(--cor01);
-        text-align: justify;
-        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
-        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185);
-
-        min-width: 80vw;
-    }
-
-    #doces h2 {
-        font-size: 2em;
-        margin-bottom: 10px;
-    }
-
-    #doces ul {
-        padding: 10px;
-        columns: 2;
-        list-style-position: inside;
-        font-size: 1.1em;
-
     }
