@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 767px) {
+@media (max-width: 825px) {
     /* Dispositivos com tela menor que 767px */
     #produtos {
       flex-direction: column; /* Altera a direção de flexbox para vertical */
