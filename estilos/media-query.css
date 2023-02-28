@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    background: var(--cor02);
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
 @media (max-width: 825px) {
     /* Dispositivos com tela menor que 767px */
     #produtos {
