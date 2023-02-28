@@ -108,6 +108,7 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
 #base-foto-topo {
     height: 50vh;
     position: relative;
+    display: block;
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,27 +119,45 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
 }
 
 .frase-inicio {
-    /*display: block;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    border: 1px solid red;*/
     display: block;
-    float: right;
-    margin-top: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     padding: 4px;
     color: var(--cor02);
-    background-color: #401d16d0;
+    background-color: #401d16d3;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
 }
 
 .entre-box {
-    height: 10vh;
+    margin-bottom: 20px;
+}
 
+.entre-box > p {
+    display: block;
+    text-align: center;
+    margin: 4px 20%;
+    padding: 10px;
+    font-size: 1.2em;
+    text-indent: 20px;
+    text-align: justify;
+    background: #401D16;
+    color: var(--cor02);
+    font-family: var(--font-padrao);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+}
+
+.entre-box > p > span {
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
 }
 
 
 #salgados  {
+    display: block;
+    margin-top: 40px;
+    margin: auto;
     padding: 10px;
     max-width: 50%;
     min-height: 200px;
