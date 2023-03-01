@@ -155,16 +155,20 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
     align-items: center;
     text-align: center;
     margin: auto;
+    min-width: none;
     max-width: 80vw;
-    
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
+    flex-wrap: wrap;
     
+    }
+
+    .foto-produto-p {
+        display: none;
     }
 
     .fotos-produtos {
         flex: 1;
         overflow: hidden;
-        margin: 10px;
     }
 
     .fotos-produtos > h2 {
@@ -178,6 +182,7 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
         display: inline-block;
         border: 2px solid var(--cor04);
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185);
+        
     }
 
     #base-foto-meio {

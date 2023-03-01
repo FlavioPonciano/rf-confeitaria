@@ -12,7 +12,17 @@ html, body {
     box-sizing: border-box;
 }
 
-@media (max-width: 825px) {
+@media (min-width: 821px) and (max-width: 1139px) {
+    .foto-produto-p {
+        display: block;
+    }
+
+    .foto-produto-m {
+        display: none;
+    }
+  }
+
+@media (max-width: 820px) {
     /* Dispositivos com tela menor que 767px */
     #produtos {
       flex-direction: column; /* Altera a direção de flexbox para vertical */
