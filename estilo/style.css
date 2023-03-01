@@ -147,7 +147,7 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
 }
 
-
+/* ----- Área do Menu de Produtos ----- */
 
 #produtos  {
     display: flex;
@@ -195,4 +195,23 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
         background-image: url('../imagens/brigadeiro.jpg');
         background-attachment: fixed;
         box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
+    }
+
+    /* ----- Área do Rodapé ----- */
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: var(--cor04);
+        color: var(--cor02);
+    }
+
+    footer > p > a {
+        text-decoration: none;
+        font-weight: bold;
+        color: var(--cor02);
+    }
+
+    footer > p > a:hover {
+        text-decoration: underline;
     }
