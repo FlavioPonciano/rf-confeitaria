@@ -41,6 +41,8 @@ header {
     padding-bottom: 30px;
 }
 
+/* ----- Botões de rede social no topo ----- */
+
 #social {
     position: absolute;
     top: 5%;
@@ -158,8 +160,7 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
     min-width: none;
     max-width: 80vw;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
     }
 
     .foto-produto-p {
