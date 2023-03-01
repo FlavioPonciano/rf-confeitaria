@@ -202,7 +202,7 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
 
     footer {
         text-align: center;
-        padding: 10px;
+        padding: 8px;
         background-color: var(--cor04);
         color: var(--cor02);
     }
