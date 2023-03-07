@@ -102,7 +102,7 @@ menu > a {
     cursor: pointer;
 }
 
-menu:hover > :not(:hover), #social:hover > :not(:hover) {
+menu:hover > :not(:hover), #social:hover > :not(:hover), #produtos-menu:hover > :not(:hover), #contatos:hover > :not(:hover) {
     opacity: .2;
     transform: scale(0.9);
 }
@@ -151,7 +151,7 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
 
 /* ----- Área do Menu de Produtos ----- */
 
-#produtos  {
+#produtos-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -197,6 +197,10 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
         background-attachment: fixed;
         box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
     }
+
+    /* --- Área de galeria de produtos ---- */
+
+     
 
     /* ----- Área de Contatos ----- */
 
