@@ -228,7 +228,7 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
     }
 
     #informacoes > hr {
-        border-color: var(--cor04);
+        border-color: var(--cor01);
         width: 80%;
         margin: auto;
     }
