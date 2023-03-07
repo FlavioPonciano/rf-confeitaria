@@ -187,7 +187,7 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
     }
 
     #base-foto-meio {
-        height: 50vh;
+        height: 30vh;
         position: relative;
     
         background-size: cover;
@@ -196,6 +196,48 @@ menu:hover > :not(:hover), #social:hover > :not(:hover) {
         background-image: url('../imagens/brigadeiro.jpg');
         background-attachment: fixed;
         box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
+    }
+
+    /* ----- Área de Contatos ----- */
+
+    #informacoes {
+        width: 80vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    #informacoes h2 {
+        color: var(--cor04);
+        font-size: 1.3em;
+        font-variant: small-caps;
+        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
+        margin-bottom: 15px;
+    }
+
+    #informacoes > #contatos {
+        width: 50%;
+        margin: auto;
+        
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+
+    #informacoes > #contatos > a{
+        padding: 20px;
+        align-items: center;
+    }
+
+    #informacoes > hr {
+        border-color: var(--cor04);
+        width: 80%;
+        margin: auto;
+    }
+
+    #informacoes > #mapa > iframe {
+        width: 50%;
+        height: 300px;
+        border: 2px solid var(--cor04);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185);
     }
 
     /* ----- Área do Rodapé ----- */

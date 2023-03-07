@@ -23,7 +23,7 @@ html, body {
   }
 
 @media (max-width: 820px) {
-    /* Dispositivos com tela menor que 767px */
+    /* Dispositivos com tela menor que 820px */
     #produtos {
       flex-direction: column; /* Altera a direção de flexbox para vertical */
       align-items: center; /* Centraliza os elementos verticalmente */
