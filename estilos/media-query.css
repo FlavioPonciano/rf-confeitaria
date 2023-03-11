@@ -33,4 +33,12 @@ html, body {
       margin-left: 0; /* Remove a margem esquerda para centralizar as divs filhas */
       margin-bottom: 20px; /* Adiciona uma margem inferior para separar as divs filhas */
     }
+
+    .historia {
+      width: 100%;
+    }
+
+    .historia > p {
+      font-size: 0.6em;
+    }
   }
