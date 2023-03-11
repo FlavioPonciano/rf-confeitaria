@@ -41,12 +41,42 @@ header {
     padding-bottom: 30px;
 }
 
+menu{
+    padding: 15px;
+    margin-top: 0px;
+    text-align: center;
+    background: var(--cor04);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+
+    min-width: 200px;
+}
+
+menu > a {
+    padding: 8px;
+
+
+    text-decoration: none;
+    color: var(--cor02);
+    font-family: var(--font-padrao);
+    font-variant: small-caps;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
+
+    transition: .35s;
+    cursor: pointer;
+}
+
+menu:hover > :not(:hover), #social:hover > :not(:hover), #produtos-menu:hover > :not(:hover), #contatos:hover > :not(:hover) {
+    opacity: .2;
+    transform: scale(0.9);
+}
+
 /* ----- Botões de rede social no topo ----- */
 
 #social {
     position: absolute;
-    top: 5%;
-    left: 80%;
+    top: 15%;
+    left: 75%;
 }
 
 .link-social{
@@ -77,35 +107,6 @@ header p {
     font-size: 1em;
 }
 
-menu{
-    padding: 8px;
-    margin-top: 10px;
-    text-align: center;
-    background: var(--cor04);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
-
-    min-width: 200px;
-}
-
-menu > a {
-    padding: 8px;
-
-
-    text-decoration: none;
-    color: var(--cor02);
-    font-family: var(--font-padrao);
-    font-variant: small-caps;
-    font-size: 1.2em;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
-
-    transition: .35s;
-    cursor: pointer;
-}
-
-menu:hover > :not(:hover), #social:hover > :not(:hover), #produtos-menu:hover > :not(:hover), #contatos:hover > :not(:hover) {
-    opacity: .2;
-    transform: scale(0.9);
-}
 
 #base-foto-topo {
     height: 50vh;

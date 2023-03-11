@@ -1,0 +1,71 @@
+:root {
+    --cor01: #D9C896;
+    --cor02: #D9CEAD;
+    --cor03: #8C673A;
+    --cor04: #401D16;
+    --cor05: #CFBC8F;
+
+    --font-logo: 'Beyond Wonderland', serif;
+    --font-padrao: 'Times New Roman', Times, serif;
+    --font-menu: 'Yeseva One', cursive;
+
+}
+
+.container {
+    max-width: 1200px;
+
+    padding: 0px 20px 0px 20px;
+
+    margin: 20px auto;
+
+    display: grid;
+    grid-gap: 20px;
+
+    justify-content: center;
+
+    grid-template-areas: 
+    "item item item";
+}
+
+.container > .item > img {
+    width: 100%;
+    border: 1px solid var(--cor04);
+    box-sizing: border-box;
+
+}
+
+.item {
+    max-width: 300px;
+    min-width: 200px;
+    min-height: 300px;
+    
+
+    grid-area: "item";
+}
+
+.item > h1 {
+    text-align: center;
+    color: #401D16;
+    font-family: var(--font-padrao);
+    font-variant: small-caps;
+}
+
+.item > p {
+    text-align: justify;
+    text-indent: 10px;
+    padding: 5px;
+}
+
+@media (max-width: 820px) {
+    .container {
+    grid-template-areas: 
+    "item item";
+}
+}
+
+@media (max-width: 650px) {
+    .container {
+        grid-template-areas: 
+        "item";
+    }
+}
