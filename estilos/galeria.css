@@ -11,6 +11,14 @@
 
 }
 
+.titulo-galeria > h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: var(--cor04);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.267);
+}
+
 .container {
     max-width: 1200px;
 
@@ -68,4 +76,4 @@
         grid-template-areas: 
         "item";
     }
-}
+}   
