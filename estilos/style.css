@@ -55,7 +55,6 @@ menu{
 menu > a {
     padding: 8px;
 
-
     text-decoration: none;
     color: var(--cor02);
     font-family: var(--font-padrao);
