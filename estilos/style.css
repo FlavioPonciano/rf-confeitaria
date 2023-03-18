@@ -205,13 +205,20 @@ header p {
 
     /* ----- Área de Contatos ----- */
 
-    #informacoes {
+    /*.informacoes {
+        display: grid;
+        grid-gap: 2px;
+
+        grid-template-areas: "contatos mapas";
+    }*/
+
+    .informacoes {
         width: 80vw;
         margin: auto;
         text-align: center;
     }
 
-    #informacoes h2 {
+    .informacoes h2 {
         color: var(--cor04);
         font-size: 1.3em;
         font-variant: small-caps;
@@ -219,26 +226,29 @@ header p {
         margin-bottom: 15px;
     }
 
-    #informacoes > #contatos {
-        width: 50%;
+    .informacoes > .contatos {
+        width: 100%;
         margin: auto;
+        justify-content: center;
         
         padding: 30px;
         margin-bottom: 10px;
+
     }
 
-    #informacoes > #contatos > a{
+    .informacoes > .contatos > a{
         padding: 20px;
         align-items: center;
+        display: inline;
     }
 
-    #informacoes > hr {
+    .informacoes > hr {
         border-color: var(--cor01);
         width: 80%;
         margin: auto;
     }
 
-    #informacoes > #mapa > iframe {
+    .informacoes > .mapa > iframe {
         width: 50%;
         height: 300px;
         border: 2px solid var(--cor04);
