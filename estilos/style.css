@@ -115,8 +115,8 @@ header p {
 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
-    background-image: url('../imagens/bolo-home.jpg');
+    background-position: center center;
+    background-image: url('../imagens/banner-index.jpg');
     background-attachment: fixed;
     box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
 }
