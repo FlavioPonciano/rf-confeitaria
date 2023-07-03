@@ -1,0 +1,8 @@
+Quantidade por pessoa:
+Somente salgado +- 15 unidades
+Somente doce +- 7 unidades
+Somente bolo +- 200g duas fatias
+
+Salgado + doce + bolo = 10 salgados, 5 doces e 100g de bolo
+Salgado + bolo = 12 salgado + 100g de bolo
+Doce + bolo = 6 doces + 100g de bolo
