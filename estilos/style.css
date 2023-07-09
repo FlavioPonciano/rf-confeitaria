@@ -207,20 +207,9 @@ header p {
         background-image: url('../imagens/brigadeiro.jpg');
         background-attachment: fixed;
         box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
-    }
-
-    /* --- Área de galeria de produtos ---- */
-
-     
+    } 
 
     /* ----- Área de Contatos ----- */
-
-    /*.informacoes {
-        display: grid;
-        grid-gap: 2px;
-
-        grid-template-areas: "contatos mapas";
-    }*/
 
     .informacoes {
         width: 80vw;
