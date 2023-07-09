@@ -6,8 +6,8 @@
     --cor05: #CFBC8F;
 
     --font-logo: 'Beyond Wonderland', serif;
-    --font-padrao: 'Times New Roman', Times, serif;
-    --font-menu: 'Yeseva One', cursive;
+    --font-menu: 'balginextralight', sans-serif;
+    --font-padrao: serif;
 
 }
 
@@ -54,7 +54,7 @@
 .item > h1 {
     text-align: center;
     color: #401D16;
-    font-family: var(--font-padrao);
+    font-family: var(--font-menu);
     font-variant: small-caps;
 }
 
@@ -62,6 +62,8 @@
     text-align: justify;
     text-indent: 10px;
     padding: 5px;
+    font-family: var(--font-padrao);
+    font-weight: lighter;
 }
 
 @media (max-width: 820px) {

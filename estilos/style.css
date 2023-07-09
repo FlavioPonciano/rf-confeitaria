@@ -1,11 +1,15 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Beyond Wonderland', serif;
+    font-family: 'Beyond Wonderland';
     src: url(../fonts/beyondwonderland.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@font-face {
+    font-family: 'balginextralight';
+    src: url(../fonts/balginextralight.otf);
+    font-weight: normal;
+}
 
 :root {
     --cor01: #D9C896;
@@ -15,8 +19,8 @@
     --cor05: #CFBC8F;
 
     --font-logo: 'Beyond Wonderland', serif;
-    --font-padrao: 'Times New Roman', Times, serif;
-    --font-menu: 'Yeseva One', cursive;
+    --font-menu: 'balginextralight', sans-serif;
+    --font-padrao: serif;
 
 }
 
@@ -39,6 +43,21 @@ header {
 
 #topo-cabecalho {
     padding-bottom: 30px;
+    text-align: center;
+}
+
+#topo-cabecalho > img {
+    width: 250px;
+
+}
+
+#topo-cabecalho-galeria {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#topo-cabecalho-galeria > img {
+    width: 150px;
 }
 
 menu{
@@ -57,7 +76,7 @@ menu > a {
 
     text-decoration: none;
     color: var(--cor02);
-    font-family: var(--font-padrao);
+    font-family: var(--font-menu);
     font-variant: small-caps;
     font-size: 1.2em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
@@ -83,28 +102,18 @@ menu:hover > :not(:hover), #social:hover > :not(:hover), #produtos-menu:hover > 
     margin-right: 10px;
 }
 
-
-header h1 {
-    padding-top: 20px;
-    text-align: center;
-    font-size: 6em;
-    font-family: var(--font-logo);
-    font-weight: lighter;
-    color: var(--cor04);
-    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
-}
-
 header p {
     text-align: center;
     font-variant: small-caps;
     font-size: 1.5em;
-    font-family: var(--font-padrao);
+    font-family: var(--font-menu);
     color: var(--cor04);
     text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
 }
 
 #desde-2010 {
     font-size: 1em;
+    color: black;
 }
 
 
@@ -127,6 +136,7 @@ header p {
     top: 50%;
     left: 50%;
     padding: 4px;
+    font-family: var(--font-padrao);
     color: var(--cor02);
     background-color: #401d16d3;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
@@ -216,6 +226,7 @@ header p {
         width: 80vw;
         margin: auto;
         text-align: center;
+        font-family: var(--font-padrao);
     }
 
     .informacoes h2 {
@@ -233,7 +244,6 @@ header p {
         
         padding: 30px;
         margin-bottom: 10px;
-
     }
 
     .informacoes > .contatos > a{
@@ -242,22 +252,23 @@ header p {
         display: inline;
     }
 
-    .informacoes > hr {
-        border-color: var(--cor01);
-        width: 80%;
-        margin: auto;
+    .informacoes > .mapa {
+        width: 100%;
+        padding: 30px;
     }
 
     .informacoes > .mapa > iframe {
         width: 50%;
-        height: 300px;
-        border: 2px solid var(--cor04);
+        height: 200px;
+        box-sizing: initial;
+        border: 1px solid var(--cor04);
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185);
     }
 
     /* ----- Área do Rodapé ----- */
 
     footer {
+        font-family: var(--font-padrao);
         text-align: center;
         padding: 8px;
         background-color: var(--cor04);
