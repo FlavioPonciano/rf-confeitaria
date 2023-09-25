@@ -27,8 +27,8 @@ function calcular() {
       var quantidadeSalgados = convidados * 10;
       var quantidadeDoces = convidados * 5;
       var quantidadeBolo = convidados * 1;
-      var pesoBolo = quantidadeBolo * 100;
-      resultadoElement.innerHTML = `${quantidadeSalgados} Salgados, ${quantidadeDoces} Doces e ${quantidadeBolo} fatias de bolo (100g cada) igual à ${pesoBolo} gramas`;
+
+      resultadoElement.innerHTML = `${quantidadeSalgados} Salgados, ${quantidadeDoces} Doces e ${quantidadeBolo} fatias de bolo`;
     } else if (produtos.includes("Salgados") && produtos.includes("Doces")) {
       var quantidadeSalgados = convidados * 13;
       var quantidadeDoces = convidados * 6;
@@ -37,12 +37,12 @@ function calcular() {
       var quantidadeSalgados = convidados * 12;
       var quantidadeBolo = convidados * 1;
       var pesoBolo = quantidadeBolo * 100;
-      resultadoElement.innerHTML = `${quantidadeSalgados} Salgados, ${quantidadeBolo} fatias de bolo (100g cada) igual à ${pesoBolo} gramas`;
+      resultadoElement.innerHTML = `${quantidadeSalgados} Salgados, ${quantidadeBolo} fatias de bolo`;
     } else if (produtos.includes("Doces") && produtos.includes("Bolo")) {
       var quantidadeDoces = convidados * 6;
       var quantidadeBolo = convidados * 1;
       var pesoBolo = quantidadeBolo * 100;
-      resultadoElement.innerHTML = `${quantidadeDoces} Doces e ${quantidadeBolo} fatias de bolo (100g cada) igual à ${pesoBolo} gramas`;
+      resultadoElement.innerHTML = `${quantidadeDoces} Doces e ${quantidadeBolo} fatias de bolo`;
     } else if (produtos.includes("Salgados")) {
       var quantidadeSalgados = convidados * 15;
       resultadoElement.innerHTML = `${quantidadeSalgados} Salgados`;
@@ -52,7 +52,7 @@ function calcular() {
     } else if (produtos.includes("Bolo")) {
       var quantidadeBolo = convidados * 1;
       var pesoBolo = quantidadeBolo * 100;
-      resultadoElement.innerHTML = `${quantidadeBolo} fatias de bolo (100g cada) igual à ${pesoBolo} gramas`;
+      resultadoElement.innerHTML = `${quantidadeBolo} fatias de bolo`;
     }
   } else {
     resultadoElement.innerHTML = `Insira à quantidade de convidados.`;
