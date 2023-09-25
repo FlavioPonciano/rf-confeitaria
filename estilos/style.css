@@ -86,8 +86,8 @@ menu > a {
 
 menu:hover > :not(:hover),
 #social:hover > :not(:hover),
-#produtos-menu:hover > :not(:hover),
-#contatos:hover > :not(:hover) {
+#produtos-menu:hover > :not(:hover) {
+  transition: opacity 0.3s, transform 0.3s;
   opacity: 0.2;
   transform: scale(0.9);
 }
@@ -291,6 +291,19 @@ p {
   align-items: center;
   display: inline;
 }
+
+/* Estilos para imagens dentro da seção de informações */
+.informacoes .icone-contato {
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+/* Aplicar o efeito a cada imagem individualmente */
+.informacoes .icone-contato:hover {
+  opacity: 0.2;
+  transform: scale(0.9);
+}
+
+
 
 .informacoes > .mapa {
   width: 100%;
