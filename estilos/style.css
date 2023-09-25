@@ -1,275 +1,326 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Beyond Wonderland';
-    src: url(../fonts/beyondwonderland.ttf);
+  font-family: "Beyond Wonderland";
+  src: url(../fonts/beyondwonderland.ttf);
 }
 
 @font-face {
-    font-family: 'balginextralight';
-    src: url(../fonts/balginextralight.otf);
-    font-weight: normal;
+  font-family: "balginextralight";
+  src: url(../fonts/balginextralight.otf);
+  font-weight: normal;
 }
 
 :root {
-    --cor01: #D9C896;
-    --cor02: #D9CEAD;
-    --cor03: #8C673A;
-    --cor04: #401D16;
-    --cor05: #CFBC8F;
+  --cor01: #d9c896;
+  --cor02: #d9cead;
+  --cor03: #8c673a;
+  --cor04: #401d16;
+  --cor05: #cfbc8f;
 
-    --font-logo: 'Beyond Wonderland', serif;
-    --font-menu: 'balginextralight', sans-serif;
-    --font-padrao: serif;
-
+  --font-logo: "Beyond Wonderland", serif;
+  --font-menu: "balginextralight", sans-serif;
+  --font-padrao: serif;
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
-    font-size: 1em;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
 }
 
-html, body {
-    background: var(--cor02);
-    min-height: 100vh;
-    box-sizing: border-box;
+html,
+body {
+  background: var(--cor02);
+  background-color: white;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 header {
-    background-image: linear-gradient(to top, var(--cor01), var(--cor05));
-    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
+  background-image: linear-gradient(to top, var(--cor01), var(--cor05));
+  box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
 }
 
 #topo-cabecalho {
-    padding-bottom: 30px;
-    text-align: center;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 #topo-cabecalho > img {
-    width: 250px;
-
+  width: 250px;
 }
 
 #topo-cabecalho-galeria {
-    text-align: center;
-    padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 #topo-cabecalho-galeria > img {
-    width: 150px;
+  width: 150px;
 }
 
-menu{
-    
-    padding: 15px;
-    margin-top: 0px;
-    text-align: center;
-    background: var(--cor04);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+menu {
+  padding: 15px;
+  margin-top: 0px;
+  text-align: center;
+  background: var(--cor04);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
 
-    min-width: 200px;
+  min-width: 200px;
 }
 
 menu > a {
-    padding: 8px;
+  padding: 8px;
 
-    text-decoration: none;
-    color: var(--cor02);
-    font-family: var(--font-menu);
-    font-variant: small-caps;
-    font-size: 1.2em;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
+  text-decoration: none;
+  color: var(--cor02);
+  font-family: var(--font-menu);
+  font-variant: small-caps;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
 
-    transition: .35s;
-    cursor: pointer;
+  transition: 0.35s;
+  cursor: pointer;
 }
 
-menu:hover > :not(:hover), #social:hover > :not(:hover), #produtos-menu:hover > :not(:hover), #contatos:hover > :not(:hover) {
-    opacity: .2;
-    transform: scale(0.9);
+menu:hover > :not(:hover),
+#social:hover > :not(:hover),
+#produtos-menu:hover > :not(:hover),
+#contatos:hover > :not(:hover) {
+  opacity: 0.2;
+  transform: scale(0.9);
 }
 
 /* ----- Botões de rede social no topo ----- */
 
 #social {
-    position: absolute;
-    top: 15%;
-    left: 75%;
+  position: absolute;
+  top: 15%;
+  left: 75%;
 }
 
-.link-social{
-    margin-right: 10px;
+.link-social {
+  margin-right: 10px;
 }
 
 header p {
-    text-align: center;
-    font-variant: small-caps;
-    font-size: 1.5em;
-    font-family: var(--font-menu);
-    color: var(--cor04);
-    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 1.5em;
+  font-family: var(--font-menu);
+  color: var(--cor04);
+  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.479);
 }
 
 #desde-2010 {
-    font-size: 1em;
-    color: black;
+  font-size: 1em;
+  color: black;
 }
 
-
 #base-foto-topo {
-    height: 50vh;
-    position: relative;
-    display: block;
+  height: 50vh;
+  position: relative;
+  display: block;
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-image: url('../imagens/banner-index.jpg');
-    background-attachment: fixed;
-    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../imagens/banner-index.jpg");
+  background-attachment: fixed;
+  box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
 }
 
 .frase-inicio {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    padding: 4px;
-    font-family: var(--font-padrao);
-    color: var(--cor02);
-    background-color: #401d16d3;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 4px;
+  font-family: var(--font-padrao);
+  color: var(--cor02);
+  background-color: #401d16d3;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
 }
 
 .historia {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .historia > p {
-    display: block;
-    text-align: center;
-    margin: 4px 20%;
-    padding: 10px;
-    font-size: 1.2em;
-    text-indent: 20px;
-    text-align: justify;
-    background: #401D16;
-    color: var(--cor02);
-    font-family: var(--font-padrao);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+  display: block;
+  text-align: center;
+  margin: 4px 20%;
+  padding: 10px;
+  font-size: 1.2em;
+  text-indent: 20px;
+  text-align: justify;
+  background: #401d16;
+  color: var(--cor02);
+  font-family: var(--font-padrao);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
 }
 
 /* ----- Área do Menu de Produtos ----- */
 
 #produtos-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    min-width: none;
-    max-width: 80vw;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
-    flex-wrap: wrap;    
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  min-width: none;
+  max-width: 80vw;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
+  flex-wrap: wrap;
+}
 
-    .foto-produto-p {
-        display: none;
-    }
+.foto-produto-p {
+  display: none;
+}
 
-    .fotos-produtos {
-        flex: 1;
-        overflow: hidden;
-    }
+.fotos-produtos {
+  flex: 1;
+  overflow: hidden;
+}
 
-    .fotos-produtos > h2 {
-        color: var(--cor04);
-        font-size: 1.3em;
-        font-variant: small-caps;
-        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
-    }
+.fotos-produtos > h2 {
+  color: var(--cor04);
+  font-size: 1.3em;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
+}
 
-    .fotos-produtos > a > img {
-        display: inline-block;
-        border: 2px solid var(--cor04);
-        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185);
-        
-    }
+.fotos-produtos > a > img {
+  display: inline-block;
+  border: 2px solid var(--cor04);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185);
+}
 
-    #base-foto-meio {
-        height: 30vh;
-        position: relative;
-    
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-image: url('../imagens/brigadeiro.jpg');
-        background-attachment: fixed;
-        box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
-    } 
+#base-foto-meio {
+  height: 30vh;
+  position: relative;
 
-    /* ----- Área de Contatos ----- */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../imagens/brigadeiro.jpg");
+  background-attachment: fixed;
+  box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.301);
+}
 
-    .informacoes {
-        width: 80vw;
-        margin: auto;
-        text-align: center;
-        font-family: var(--font-padrao);
-    }
+/* --- Área de galeria de produtos ---- */
 
-    .informacoes h2 {
-        color: var(--cor04);
-        font-size: 1.3em;
-        font-variant: small-caps;
-        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
-        margin-bottom: 15px;
-    }
+/* --- Calculadora de Convidados --- */
 
-    .informacoes > .contatos {
-        width: 100%;
-        margin: auto;
-        justify-content: center;
-        
-        padding: 30px;
-        margin-bottom: 10px;
-    }
+#calculadoraConvidados {
+  color: var(--cor04);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 
-    .informacoes > .contatos > a{
-        padding: 20px;
-        align-items: center;
-        display: inline;
-    }
+#calculadoraConvidados h2 {
+  color: var(--cor04);
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
 
-    .informacoes > .mapa {
-        width: 100%;
-        padding: 30px;
-    }
+label {
+  display: block;
+  margin-bottom: 10px;
+}
 
-    .informacoes > .mapa > iframe {
-        width: 50%;
-        height: 200px;
-        box-sizing: initial;
-        border: 1px solid var(--cor04);
-        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185);
-    }
+input[type="number"],
+input[type="checkbox"] {
+  margin-left: 10px;
+}
 
-    /* ----- Área do Rodapé ----- */
+button {
+  background-color: var(--cor04);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-    footer {
-        font-family: var(--font-padrao);
-        text-align: center;
-        padding: 8px;
-        background-color: var(--cor04);
-        color: var(--cor02);
-    }
+button:hover {
+  background-color: var(--cor03);
+}
 
-    footer > p > a {
-        text-decoration: none;
-        font-weight: bold;
-        color: var(--cor02);
-    }
+p {
+  font-size: 18px;
+}
 
-    footer > p > a:hover {
-        text-decoration: underline;
-    }
+/* ----- Fim -----*/
+
+.informacoes {
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  font-family: var(--font-padrao);
+}
+
+.informacoes h2 {
+  color: var(--cor04);
+  font-size: 1.3em;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
+  margin-bottom: 15px;
+}
+
+.informacoes > .contatos {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.informacoes > .contatos > a {
+  padding: 20px;
+  align-items: center;
+  display: inline;
+}
+
+.informacoes > .mapa {
+  width: 100%;
+  padding: 30px;
+}
+
+.informacoes > .mapa > iframe {
+  width: 50%;
+  height: 200px;
+  box-sizing: initial;
+  border: 1px solid var(--cor04);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185);
+}
+
+/* ----- Área do Rodapé ----- */
+
+footer {
+  font-family: var(--font-padrao);
+  text-align: center;
+  padding: 8px;
+  background-color: var(--cor04);
+  color: var(--cor02);
+}
+
+footer > p > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--cor02);
+}
+
+footer > p > a:hover {
+  text-decoration: underline;
+}
